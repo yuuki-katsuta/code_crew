@@ -4,5 +4,8 @@
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
-  }
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "cSpell.words": ["lefthook", "libsql", "Turso"]
 }
