@@ -13,7 +13,10 @@
     "lint:fix": "biome lint --write --unsafe .",
     "format": "biome format .",
     "check": "biome check --write .",
-    "tsc": "npx tsc --noEmit"
+    "tsc": "npx tsc --noEmit",
+    "turso:migration:generate": "drizzle-kit generate --config drizzle.config.ts",
+    "turso:migration:apply": "drizzle-kit migrate --config drizzle.config.ts",
+    "turso:migration:push": "drizzle-kit push --config drizzle.config.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.15.10",
